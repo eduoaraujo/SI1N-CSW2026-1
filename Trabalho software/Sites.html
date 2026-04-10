@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <h1>Preços dos Sites</h1>
+            <p>
+            <h3>Faça seu orçamento</h3>
+            </p>
+        <tr>
+        <tr>
+            <th>Serviços</th>
+            <th>Inclui</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>Landing Page</td>
+            <td>Design + HTML/CSS</td>
+            <td>R$600</td>
+        </tr>
+        <tr>
+            <td>Site Estático</td>
+            <td>3-5 páginas, layout moderno</td>
+            <td>R$1.200</td>
+        </tr>
+        <tr>
+            <td>Site Dinâmico</td>
+            <td>Sistema completo</td>
+            <td>R$3.000</td>
+        </tr>
+        <tr>
+            <td>Site Superavançado</td>
+            <td>Plataforma de alta performace e funcionalidades personalizadas</td>
+            <td>R$12.000</td>
+        </tr>
+    </table>
+    <h2>Preencha seus dados aqui:</h2>
+    <table border="1">
+        <tr>
+            <td>
+                <form action="processarForm.php" method="get">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome"><br><br>
+                </form>
+            </td>
+        <tr>
+        <tr>
+            <td>
+                <label for="tel">Tel:     </label>
+                <input type="tel" id="tel" name="tel">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Selecione o tipo de conteúdo</label> <br>
+                <select name="" size="1">
+                    <option value="">Selecione</option>
+                    <option value="">Pessoa física</option>
+                    <option value="">Pessoa Jurídica</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Qual o melhor horário pra contato</label> <br>
+                <select name="horário" size="1">
+                    <option value="">Selecione</option>
+                    <option value="Matutino">Matutino</option>
+                    <option value="Vespertino">Vespertino</option>
+                    <option value="Qualquer um">Qualquer um</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="">Qual serviço você deseja?</label> <br>  
+                <input type="checkbox" name="Landing"> Landing Page <br>
+                <input type="checkbox" name="Estático"> Site Estático <br>
+                <input type="checkbox" name="Dinâmico">Site Dinâmico <br>
+                <input type="checkbox" name="Superavançado"> Site Superavançado        
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
